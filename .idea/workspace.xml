@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0103ddb0-990b-426f-aeaf-1fae2ea994e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dCTMzG63oW8R1aqUQQ0b1cNDqt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MatchDemo01">
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter03.notice.Demo01" />
+      <module name="scala3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter03.notice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter12.MatchDemo01" />
+      <module name="scala3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchExercise01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter12.MatchExercise01" />
+      <module name="scala3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchExercise02" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter12.MatchExercise02" />
+      <module name="scala3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraitDemo03" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter08.mytrait.TraitDemo03" />
+      <module name="scala3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter08.mytrait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MatchDemo01" />
+        <item itemvalue="Application.TraitDemo03" />
+        <item itemvalue="Application.MatchExercise02" />
+        <item itemvalue="Application.MatchExercise01" />
+        <item itemvalue="Application.Demo01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="scala3" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala3 [file:/Users/xy1267/projects/scala3/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala3-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2883166819" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1916534729" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../SparkScala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0103ddb0-990b-426f-aeaf-1fae2ea994e2" name="Default Changelist" comment="" />
+      <created>1591928030880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591928030880</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591928455308">
+      <screen x="0" y="23" width="1344" height="764" />
+    </state>
+    <state x="410" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1344.764@0.23.1344.764" timestamp="1591928455308" />
+    <state width="1282" height="183" key="GridCell.Tab.0.bottom" timestamp="1592030672763">
+      <screen x="0" y="23" width="1344" height="764" />
+    </state>
+    <state width="1282" height="183" key="GridCell.Tab.0.bottom/0.23.1344.764@0.23.1344.764" timestamp="1592030672763" />
+    <state width="1282" height="183" key="GridCell.Tab.0.center" timestamp="1592030672762">
+      <screen x="0" y="23" width="1344" height="764" />
+    </state>
+    <state width="1282" height="183" key="GridCell.Tab.0.center/0.23.1344.764@0.23.1344.764" timestamp="1592030672762" />
+    <state width="1282" height="183" key="GridCell.Tab.0.left" timestamp="1592030672761">
+      <screen x="0" y="23" width="1344" height="764" />
+    </state>
+    <state width="1282" height="183" key="GridCell.Tab.0.left/0.23.1344.764@0.23.1344.764" timestamp="1592030672761" />
+    <state width="1282" height="183" key="GridCell.Tab.0.right" timestamp="1592030672762">
+      <screen x="0" y="23" width="1344" height="764" />
+    </state>
+    <state width="1282" height="183" key="GridCell.Tab.0.right/0.23.1344.764@0.23.1344.764" timestamp="1592030672762" />
+  </component>
+</project>
