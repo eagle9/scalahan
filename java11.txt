@@ -1,0 +1,24 @@
+Brian goetz on evolving Java language
+
+project amber --- language asceptects
+  type inference with var, use good variable name
+  not just lambda from scala jdk 8
+  but also new in jdk 11
+	switch case -> ...., no break you might forget
+    record class, that is case class object from scala, huge to reduce boilercode
+	pattern matching, again from scala
+       if isinstanceOf ClassA.... --->
+			switch (a) {
+				case Integer i: 
+		reduced lines of code/repetition, avoid errors
+	sealed type, scala too
+
+project valhalla aims to reboot the layout of data in memory
+  value types, no object header, no pointer/ref, no oop 
+  but can have methods, fields, implement interfaces
+   use encapsulation, can be generic
+  faster objects
+  user-defined primities
+
+project loom 
+  threads are heavy, need lighter concurrency primitives

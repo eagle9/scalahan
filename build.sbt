@@ -20,7 +20,9 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.5.30",
   "com.typesafe.akka" %% "akka-slf4j" % "2.5.30",
-  "com.typesafe.akka" %% "akka-testkit" % "2.5.30"
+  "com.typesafe.akka" %% "akka-testkit" % "2.5.30",
+  "org.apache.kafka" %% "kafka" % "2.4.0",
+  "org.apache.kafka" % "kafka-clients" % "2.5.0"
+
+  
 )
-// https://mvnrepository.com/artifact/com.typesafe.akka/akka-slf4j
-//libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.5.30"
