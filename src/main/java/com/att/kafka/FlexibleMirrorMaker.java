@@ -123,7 +123,7 @@ public class FlexibleMirrorMaker {
         try {
 
             Properties properties = new Properties();
-            properties.load(new FileInputStream( "consumer.properties" ));
+            properties.load(new FileInputStream( "conf/consumer.properties" ));
 
             properties.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
             properties.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
@@ -142,7 +142,7 @@ public class FlexibleMirrorMaker {
         KafkaProducer<String, String> producer1 = null;
         try {
             Properties properties = new Properties();
-            properties.load( new FileInputStream(new File("producer.properties" ) ) );
+            properties.load( new FileInputStream(new File("conf/producer.properties" ) ) );
 
             properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
             properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
