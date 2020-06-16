@@ -9,6 +9,7 @@ import java.util.TreeMap
 import scala.collection.JavaConverters._
 
 object TopicsConf {
+  val PREFIX = "PROD."
   def getGroups(): TreeMap[String,List[String]] = {
     val filename = "conf/m1-topics.txt"
     val topic1Pattern = "T[0-9]{2}17".r
@@ -18,7 +19,7 @@ object TopicsConf {
       val match1 = topic1Pattern.findFirstIn(line)
       val match2 = topic2Pattern.findFirstIn(line)
       if (match1.isDefined) {
-        val topic = "PROD." + match1.head
+        val topic = PREFIX + match1.head
         val group = "group" + match1.head
         //println(group,topic)
         val list = new ArrayList[String]()
@@ -28,7 +29,7 @@ object TopicsConf {
       }
       if (match2.isDefined) {
         val group = "groupUxx22"
-        val topic = "PROD." + match2.head
+        val topic = PREFIX + match2.head
         //println(group,topic)
         val list = map.getOrDefault(group, new util.ArrayList[String]())
         list.add(topic)

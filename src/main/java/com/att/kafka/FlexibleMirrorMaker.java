@@ -194,9 +194,9 @@ public class FlexibleMirrorMaker {
                             //logger.info("Key: " + record.key() + ", Value: " + record.value());
                             //logger.info("Partition: " + record.partition() + ", Offset:" + record.offset());
                             String topic = record.topic();
-                            if (topic.startsWith( "U" )) {
+                            if (topic.startsWith( TopicsConf.PREFIX() + "U")){
                                 topic = "U22";
-                            }else if (topic.startsWith( "T" )){
+                            }else if (topic.startsWith( TopicsConf.PREFIX() + "T" )){
                                 topic = "T17";
                             }
                             producer.send( new ProducerRecord<>( topic, record.key(), record.value() ), new Callback() {
