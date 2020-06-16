@@ -2,10 +2,12 @@ name := "scala3"
 
 version := "0.1"
 
-
-
 organization := "com.yourorg"
 
+assemblyMergeStrategy in assembly := {
+ case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+ case x => MergeStrategy.first
+}
 
 
 scalaVersion := "2.11.12"

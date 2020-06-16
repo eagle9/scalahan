@@ -6,6 +6,9 @@ close proect and reopen, import starts and kafka client not found error goes awa
 glad scala and java can be used inside one project!!!
 
 scala core course by han
+use sbt assembly to package dependencies
+again search error messages found solution
+https://stackoverflow.com/questions/25144484/sbt-assembly-deduplication-found-error
 
 restructured by shaun with intellij ce sbt
 

@@ -18,17 +18,17 @@ object TopicsConf {
       val match1 = topic1Pattern.findFirstIn(line)
       val match2 = topic2Pattern.findFirstIn(line)
       if (match1.isDefined) {
-        val topic = match1.head
-        val group = "group" + topic
+        val topic = "PROD." + match1.head
+        val group = "group" + match1.head
         //println(group,topic)
-        val list = new ArrayList[String]();
+        val list = new ArrayList[String]()
         list.add(topic)
         map.put(group, list)
 
       }
       if (match2.isDefined) {
         val group = "groupUxx22"
-        val topic = match2.head
+        val topic = "PROD." + match2.head
         //println(group,topic)
         val list = map.getOrDefault(group, new util.ArrayList[String]())
         list.add(topic)
