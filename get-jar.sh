@@ -1,2 +1,3 @@
-sbt package
-cp target/scala-2.11/scala3_2.11-0.1.jar  .
+#sbt package
+#sbt assembly
+cp  target/scala-2.11/scala3-assembly-0.1.jar  .
